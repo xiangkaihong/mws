@@ -6,7 +6,7 @@ logging:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://local.mysql.com:3306/mws_base?charaterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+    url: jdbc:mysql://local.mysql.com:3306/mws_base?useSSL=false&useUnicode=true&charaterEncoding=utf8&zeroDateTimeBehavior=convertToNull
     username: root
     password: benwunetJ!@#
     hikari:
